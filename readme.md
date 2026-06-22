@@ -14,7 +14,7 @@
 
 ## Overview
 
-Visual Studio Code extension that enables TypeScript syntax highlighting inside `Type.Script(...)`, `t.Script(...)`, `Script(...)` and `s(...)` calls.
+Enables TypeScript syntax highlighting inside `Type.Script(...)` calls, as well as common aliases such as `t.Script(...)`, `Script(...)`, `type(...)`, `t(...)` and `s(...)`.
 
 Licence MIT
 
