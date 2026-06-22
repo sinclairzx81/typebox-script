@@ -54,11 +54,24 @@
     },
     "ts-tokens": {
       "patterns": [
+        { "include": "#ts-escaped-backtick" },
         { "include": "#ts-comment" },
+        { "include": "#ts-numbers" },
         { "include": "#ts-keywords" },
         { "include": "#ts-types" },
         { "include": "#ts-strings" },
         { "include": "#ts-punctuation" }
+      ]
+    },
+    "ts-escaped-backtick": {
+      "name": "string.template.ts",
+      "begin": "\\\\`",
+      "end": "\\\\`",
+      "patterns": [
+        {
+          "name": "punctuation.definition.template-expression.ts",
+          "match": "\\$\\{[^}]*\\}"
+        }
       ]
     },
     "ts-comment": {
@@ -74,6 +87,22 @@
         }
       ]
     },
+    "ts-numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.ts",
+          "match": "\\b[0-9]+n\\b"
+        },
+        {
+          "name": "constant.numeric.ts",
+          "match": "\\b0[xX][0-9a-fA-F]+\\b"
+        },
+        {
+          "name": "constant.numeric.ts",
+          "match": "\\b[0-9]+(?:\\.[0-9]+)?(?:[eE][+-]?[0-9]+)?\\b"
+        }
+      ]
+    },
     "ts-keywords": {
       "patterns": [
         {
@@ -82,7 +111,7 @@
         },
         {
           "name": "keyword.control.ts",
-          "match": "\\b(type|interface|extends|keyof|in|as|infer|readonly|typeof|import|export|from|return|const|let|var|if|else|for|while|class|implements|new|this|true|false|namespace|declare|abstract|enum|satisfies)\\b"
+          "match": "\\b(type|interface|extends|keyof|in|as|infer|readonly|typeof|import|export|from|return|const|let|var|if|else|for|while|class|implements|new|this|true|false|namespace|declare|abstract|enum|satisfies|with)\\b"
         }
       ]
     },
