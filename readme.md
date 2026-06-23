@@ -2,7 +2,7 @@
 
 <h1>TypeBox Script</h1>
 
-<p>Syntax Highlighting for TypeBox Script Types</p>
+<p>Syntax Highlighting for TypeBox Script</p>
 
 <img src="https://github.com/sinclairzx81/typebox-script/raw/main/typebox-script.png" />
 
@@ -14,17 +14,29 @@
 
 ## Overview
 
-Enables syntax highlighting for string embedded TypeScript. Will match for the following TypeBox and TypeDriver signatures.
-
-- Type.Script(`...`)
-- t.Script(`...`)
-- Script(`...`)
-- type(`...`)
-- compile(`...`)
-- t(`...`)
-- s(`...`)
+Provides syntax highlighting for TypeBox and TypeDriver Script definitions.
 
 Licence MIT
+
+## Matching
+
+The following signatures will match
+
+```typescript
+const A = Type.Script(`{ x: number }`)
+
+const B = t.Script(`{ x: number }`)
+
+const C = Script(`{ x: number }`)
+
+const D = compile(`{ x: number }`)
+
+const E = type(`{ x: number }`)
+
+const F = t(`{ x: number }`)
+
+const G = s(`{ x: number }`)
+```
 
 ## Install
 
