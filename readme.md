@@ -20,7 +20,7 @@ Licence MIT
 
 ## Matching
 
-The following signatures will match
+Syntax highlighting will match for the following functions
 
 ```typescript
 const A = Type.Script(`{ x: number }`)
