@@ -36,6 +36,12 @@ const E = type(`{ x: number }`)
 const F = t(`{ x: number }`)
 
 const G = s(`{ x: number }`)
+
+const H = x(`{ x: number }`)
+
+const I = y(`{ x: number }`)
+
+const J = z(`{ x: number }`)
 ```
 
 ## Install
