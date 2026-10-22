@@ -1,0 +1,8 @@
+{
+  "scopeName": "source.typebox-script-tb",
+  "patterns": [
+    {
+      "include": "typebox.script#ts-tokens"
+    }
+  ]
+}

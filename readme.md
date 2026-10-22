@@ -20,7 +20,11 @@ License: MIT
 
 ## Module
 
-This extension provides syntax highlighting for TypeBox type modules that use the `.box` extension. Box modules must contain only TypeScript definitions.
+This extension provides syntax highlighting for TypeBox type modules that use the `.box`, `.tb`, or `.tbx` extension. These modules must contain only TypeScript definitions.
+
+The `.box`, `.tb`, and `.tbx` extensions use separate TypeBox Script language modes to provide distinct cube icons while sharing the same syntax highlighting.
+
+Use `Ctrl+/` (or `Cmd+/` on macOS) to toggle `//` comments on the current line or selected lines. TypeBox modules also support TypeScript-style block comments, bracket matching and auto-pairing, word selection, region folding, and indentation.
 
 ## String
 

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 80 80">
+  <g transform="translate(6 0)">
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" transform="matrix(0.95168604,0,0,0.96089637,4.518449,7.812603)">
+      <path d="M 32,4 58,16 V 47 L 32,60 6,47 V 16 Z"/>
+      <path d="M 6,16 32,29 58,16 M 32,29 v 31"/>
+    </g>
+  </g>
+</svg>

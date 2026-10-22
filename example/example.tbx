@@ -1,0 +1,6 @@
+type Vector4 = { x: number, y: number, z: number, w: number }
+type Vector3 = { x: number, y: number, z: number }
+type Vector2 = { x: number, y: number }
+
+interface Base { base: string }
+interface Derived extends Base { derived: string }
