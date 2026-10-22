@@ -1,10 +1,10 @@
-<div align='center'>
+<div align="center">
 
 <h1>TypeBox Script</h1>
 
-<p>Syntax Highlighting for TypeBox Script</p>
+<p>Syntax Highlighting for TypeBox Types</p>
 
-<img src="https://github.com/sinclairzx81/typebox-script/raw/main/typebox-script.png" />
+<img src="https://github.com/sinclairzx81/typebox-script/raw/main/typebox-script.png" alt="TypeBox Script" />
 
 <br />
 <br />
@@ -14,13 +14,17 @@
 
 ## Overview
 
-Provides syntax highlighting for TypeBox and TypeDriver Script definitions.
+Provides syntax highlighting for TypeBox Script definitions.
 
-Licence MIT
+License: MIT
 
-## Matching
+## Module
 
-Syntax highlighting will match for the following functions
+This extension provides syntax highlighting for TypeBox type modules that use the `.box` extension. Box modules must contain only TypeScript definitions.
+
+## String
+
+Syntax highlighting will match in strings for the following function signatures.
 
 ```typescript
 const A = Type.Script(`{ x: number }`)
@@ -54,9 +58,4 @@ code --install-extension sinclairzx81.typebox-script
 
 ## Contribute
 
-TypeBox Script is open to community contribution. Please ensure you submit an issue before submitting a pull request. The TypeBox project prefers open community discussion before accepting new features.
-
-
-
-
-
+TypeBox Script is open to community contributions. Please open an issue before submitting a pull request. The TypeBox project prefers open community discussion before accepting new features.
