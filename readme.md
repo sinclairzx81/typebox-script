@@ -14,13 +14,13 @@
 
 ## Overview
 
-Provides syntax highlighting for TypeBox Script definitions.
+Syntax highlighting for TypeBox Script definitions.
 
 License: MIT
 
 ## Module
 
-This extension provides syntax highlighting for TypeBox type modules that use the `.box`, `.tb`, or `.tbx` extension. These modules must contain only TypeScript definitions.
+TypeBox modules use the `.box` or `.type` file extension. These modules must contain TypeScript definitions only. Refer to the [Script](https://sinclairzx81.github.io/typebox/#/docs/script/1_script) documentation for the supported syntax.
 
 ## String
 
