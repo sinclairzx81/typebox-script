@@ -2,7 +2,7 @@
   "name": "typebox-script",
   "displayName": "TypeBox Script",
   "description": "Syntax Highlighting for TypeBox Types",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "publisher": "sinclairzx81",
   "icon": "icon.png",
   "repository": {
@@ -21,7 +21,7 @@
         "id": "typebox-script",
         "extensions": [
           ".box",
-          ".type"
+          ".typebox"
         ],
         "configuration": "./src/language-configuration.json",
         "icon": {
@@ -32,7 +32,8 @@
     ],
     "configurationDefaults": {
       "files.associations": {
-        "*.schema": "json"
+        "*.jsonschema": "json",
+        "*.typescript": "typescript"
       }
     },
     "grammars": [
