@@ -20,7 +20,7 @@ License: MIT
 
 ## Module
 
-TypeBox modules use the `.box` or `.typebox` file extension. These modules must contain TypeScript definitions only. Refer to the [Script](https://sinclairzx81.github.io/typebox/#/docs/script/1_script) documentation for the supported syntax.
+TypeBox modules use the `.box`, `.typebox`, or `.typemodule` file extension. These modules must contain TypeScript definitions only. Refer to the [Script](https://sinclairzx81.github.io/typebox/#/docs/script/1_script) documentation for the supported syntax.
 
 ## String
 
